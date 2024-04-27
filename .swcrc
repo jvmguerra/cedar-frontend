@@ -1,0 +1,24 @@
+{
+    "jsc": {
+      "parser": {
+        "syntax": "typescript",
+        "tsx": true,
+        "decorators": false,
+        "dynamicImport": false
+      },
+      "transform": {
+        "react": {
+          "pragma": "React.createElement",
+          "pragmaFrag": "React.Fragment",
+          "throwIfNamespace": true,
+          "development": false,
+          "useBuiltins": false
+        }
+      },
+      "target": "es2019"
+    },
+    "module": {
+      "type": "commonjs"
+    }
+  }
+  

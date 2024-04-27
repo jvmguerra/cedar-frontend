@@ -1,8 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Cedar Frontend Assignment
+
+This repository contains the Cedar Frontend Assignment, a web application built using Next.js. It integrates several modern web development tools to streamline development, enhance styling, and ensure robust testing.
+
+## Technologies Used
+
+- **Next.js**: A React framework for building server-side rendering and static web applications.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **React Hook Form**: Simplifies form handling, making it easier to build complex forms with less code.
+- **Jest**: Simple unit testing.
+- **Cypress**: Fast e2e testing.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+- Node.js 12.x or later
+- npm, Yarn, pnpm, or Bun (Choose any one of these package managers)
+
+### Installation
+
+1. **Clone the repository:**
+```bash
+git clone https://github.com/jvmguerra/cedar-frontend.git
+cd cedar-frontend
+```
+
+2. **Install dependencies:**
+```bash
+npm install
+# or
+yarn
+# or
+pnpm install
+# or
+bun install
+```
+
+### Running the Development Server
+To start the development server and view the application in your browser:
 
 ```bash
 npm run dev
@@ -13,24 +49,29 @@ pnpm dev
 # or
 bun dev
 ```
+Visit http://localhost:3000 to view your application in action.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Testing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Unit Testing
+Run unit tests using Jest:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+npm run test
+# or
+yarn test
+```
 
-## Learn More
+### End-to-End Testing
+Execute end-to-end tests with Cypress:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run test:e2e
+# or
+yarn test:e2e
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Contact
+Victor Guerra – jvmguerra@gmail.com
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Project Link: https://github.com/jvmguerra/cedar-frontend
